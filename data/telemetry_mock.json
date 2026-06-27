@@ -1,0 +1,50 @@
+{
+  "system_status": {
+    "active_fleet": 4,
+    "environment_baseline_c": -25.0,
+    "network_protocol": "Local UWB & Wi-Fi",
+    "gps_status": "Denied - SLAM Active"
+  },
+  "drone_node_alpha": {
+    "id": "UAV-CX-01",
+    "mission_status": "Autonomous Audit Active",
+    "hardware_health": {
+      "battery_temp_c": 15.2,
+      "flight_time_remaining_min": 18,
+      "lens_heater_status": "Active"
+    },
+    "visual_slam_telemetry": {
+      "position_3d": { "x": 14.5, "y": 8.2, "z": 4.1 },
+      "orientation": { "pitch": 0.0, "yaw": 15.4, "roll": 0.0 },
+      "current_sector": "A-Block Tier 4"
+    },
+    "thermal_matrix_scan": {
+      "detected_anomalies": [
+        {
+          "voxel_coord": { "x": 14.8, "y": 8.2, "z": 4.5 },
+          "temp_c": -12.4,
+          "delta_c": 12.6,
+          "classification": "Insulation Leak Detected",
+          "alert_level": "CRITICAL"
+        }
+      ]
+    },
+    "edge_ai_analysis": {
+      "ocr_read": {
+        "batch_id": "VN-2026-AG-992",
+        "frost_obscuration_percent": 45,
+        "confidence_score": 0.98
+      },
+      "packaging_inspection": {
+        "status": "Breach Detected",
+        "stacked_classifier_prediction": {
+          "spoilage_risk_probability": 0.89,
+          "contributing_factors": [
+            "Torn wrapping detected via computer vision",
+            "Localized thermal drift"
+          ]
+        }
+      }
+    }
+  }
+}
