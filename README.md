@@ -23,11 +23,7 @@ This repository expands an existing frontend prototype into a full-scale, produc
 - [Project Composition](#project-composition)
 - [24-Month Implementation Roadmap](#24-month-implementation-roadmap)
 - [Repository Structure](#repository-structure)
-- [Getting Started](#getting-started)
 - [Implementation Strategy & Next Steps](#implementation-strategy--next-steps)
-- [Contributing](#contributing)
-- [License](#license)
-- [Build Guide](#build-guide)
 
 ---
 
